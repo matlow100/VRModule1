@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody rb;
     private int count;
+    private bool canJump;
 
     void Start ()
     {
@@ -27,6 +28,20 @@ public class PlayerController : MonoBehaviour {
         Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
         rb.AddForce (movement * speed);
+
+        if(canJump)
+        {
+            canJump = false;
+            rb.AddForce(0, 5, 0, ForceMode.Impulse);
+        }
+    }
+
+    void Update ()
+    {
+        if(Input.GetButtonDown("Jump"))
+        {
+            canJump = true;
+        }
     }
 
     void OnTriggerEnter(Collider other) 
@@ -42,7 +57,7 @@ public class PlayerController : MonoBehaviour {
     void SetCountText ()
     {
         countText.text = "Count: " + count.ToString ();
-        if (count >= 8)
+        if (count >= 10)
         {
             winText.text = "You Win!";
         }
