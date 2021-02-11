@@ -14,6 +14,7 @@
           <e p="Pacer.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
+          <e p="ScoreKeeper.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">
