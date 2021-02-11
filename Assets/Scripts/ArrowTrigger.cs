@@ -9,12 +9,10 @@ public class ArrowTrigger : MonoBehaviour
     public Text countText;
     public Text winText;
     
-    // private Rigidbody rb;
     private int count;
     
     void Start ()
     {
-        // rb = GetComponent<Rigidbody>();
         count = 0;
         SetCountText ();
         winText.text = "";
@@ -23,7 +21,7 @@ public class ArrowTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("projectile"))
         {
-            gameObject.SetActive(false); // make sure this is the Pick Up, not the arrow!!
+            gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
         }
