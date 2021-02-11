@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,7 @@ public class ArrowTrigger : MonoBehaviour
     public Text countText;
     public Text winText;
     
-    private Rigidbody rb;
+    // private Rigidbody rb;
     private int count;
     
     void Start ()
@@ -22,7 +23,7 @@ public class ArrowTrigger : MonoBehaviour
     {
         if (other.gameObject.CompareTag("projectile"))
         {
-            other.gameObject.SetActive(false);
+            gameObject.SetActive(false); // make sure this is the Pick Up, not the arrow!!
             count = count + 1;
             SetCountText();
         }
