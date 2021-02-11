@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf95e45-8c79-43e9-9bb6-fcb795485d2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR_Resources/Resources/SteamVR_Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pick Up.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pick Up.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Pacer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" />
       </list>
     </option>
   </component>
@@ -62,6 +67,8 @@
       <workItem from="1612035351153" duration="361000" />
       <workItem from="1612215641765" duration="23000" />
       <workItem from="1612976755066" duration="1000" />
+      <workItem from="1613004196523" duration="286000" />
+      <workItem from="1613004570482" duration="327000" />
     </task>
     <servers />
   </component>

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2166458477624815145}
   - component: {fileID: 3816601715052013622}
   - component: {fileID: 3837143292833184337}
+  - component: {fileID: -4316626728652448549}
   m_Layer: 0
   m_Name: Pick Up
   m_TagString: Pick Up
@@ -170,3 +171,17 @@ MonoBehaviour:
   baseTransform: {fileID: 0}
   fallenDownTransform: {fileID: 0}
   fallTime: 0.5
+--- !u!114 &-4316626728652448549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166458477624815144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df30a68e5e805947b80df822b83902a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countText: {fileID: 0}
+  winText: {fileID: 0}
