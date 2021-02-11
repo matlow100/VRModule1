@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class ScoreKeeper : MonoBehaviour
 {
-    public Text countText;
+    private Text countText;
     public Text winText;
     
     private int count;
     void Start()
     {
         count = 0;
+        countText = GetComponent<Text>();
         SetCountText ();
         winText.text = "";
     }
