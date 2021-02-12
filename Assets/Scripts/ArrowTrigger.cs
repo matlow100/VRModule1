@@ -8,7 +8,6 @@ public class ArrowTrigger : MonoBehaviour
 {
     public ScoreKeeper scorekeeper;
     
-    // void Start () {}
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("projectile"))
@@ -17,6 +16,4 @@ public class ArrowTrigger : MonoBehaviour
             scorekeeper.IncreaseScore();
         }
     }
-    
-    
 }

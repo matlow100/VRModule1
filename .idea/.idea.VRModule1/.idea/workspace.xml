@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dcf95e45-8c79-43e9-9bb6-fcb795485d2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRModule1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreKeeper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreKeeper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +40,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Pacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreKeeper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ArrowTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +94,7 @@
       <workItem from="1613054705922" duration="288000" />
       <workItem from="1613076138856" duration="1081000" />
       <workItem from="1613077361632" duration="138000" />
+      <workItem from="1613144868126" duration="410000" />
     </task>
     <servers />
   </component>

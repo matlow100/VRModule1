@@ -740,9 +740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 723376dab63e06e47b90c7b443fae58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorekeeper: {fileID: 1107347977}
   speed: 10
-  countText: {fileID: 1107347975}
-  winText: {fileID: 1777218915}
 --- !u!114 &430512416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2045,7 +2044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f236da346c08fd14a895bfd2d51f78b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 1107347975}
   winText: {fileID: 1777218915}
 --- !u!1001 &1169231998
 PrefabInstance:
@@ -4220,6 +4218,11 @@ PrefabInstance:
       propertyPath: countText
       value: 
       objectReference: {fileID: 1107347975}
+    - target: {fileID: -4316626728652448549, guid: f749919943c37c541a06342729d7b4a0,
+        type: 3}
+      propertyPath: scorekeeper
+      value: 
+      objectReference: {fileID: 1107347977}
     - target: {fileID: 2166458477624815144, guid: f749919943c37c541a06342729d7b4a0,
         type: 3}
       propertyPath: m_Name
